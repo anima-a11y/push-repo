@@ -1,0 +1,51 @@
+.home {
+    background-color: rgb(19, 176, 255);
+}
+
+.unutra {
+    margin: auto;
+    padding-top: 75px;
+    width: 1300px;
+    background-color: azure;
+    height: 3000px;
+}
+
+.menu-pica {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.menu-pica h2 {
+    margin: 0 0 10px;
+    color: #11604a;
+}
+
+.menu-pica h3 {
+    margin: 12px 0 6px;
+    color: #144a3a;
+    font-size: 16px;
+}
+
+
+.menu-tablica {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.menu-tablica td {
+    padding: 6px 8px;
+    vertical-align: middle;
+}
+
+.menu-tablica td.price {
+    text-align: right;
+    font-weight: 600;
+    color: #0b2a1f;
+}
+
+
+.menu-tablica tr:hover td {
+    background: rgba(17, 96, 74, 0.03);
+}

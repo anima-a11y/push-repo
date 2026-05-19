@@ -1,0 +1,28 @@
+.links Link {
+    margin: 15px;
+}
+
+.naslov {
+    text-align: left;
+    margin: 20px;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.header {
+
+    position: fixed;
+    width: 350px;
+    background-color: orange;
+    z-index: 2;
+}
+
+#tablica {
+    margin: 9px 4px;
+    font-size: larger;
+}
+
+.ani {
+    text-align: left;
+    margin-left: 15px;
+}

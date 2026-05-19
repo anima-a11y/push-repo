@@ -1,0 +1,32 @@
+.home {
+    background-color: rgb(19, 176, 255);
+}
+
+.unutra {
+    margin: auto;
+    padding-top: 75px;
+    width: 1300px;
+    background-color: azure;
+    height: 3000px;
+}
+
+.zastoMi {
+    align-content: center;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 67%;
+    background-color: rgb(255, 152, 33);
+    box-shadow: 3px 3px 3px gray;
+
+}
+
+.popularno {
+    align-content: center;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    background-color: rgb(255, 152, 33);
+    box-shadow: 3px 3px 3px gray;
+    z-index: 1;
+}

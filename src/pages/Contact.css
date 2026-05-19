@@ -1,0 +1,25 @@
+.home {
+    background-color: rgb(19, 176, 255);
+}
+
+.unutra {
+    margin: auto;
+    padding-top: 75px;
+    width: 1300px;
+    background-color: azure;
+    height: 3000px;
+}
+
+input {
+    margin-left: 20px;
+}
+
+input:nth-child(2) {
+    margin-right: 180px;
+}
+
+textarea {
+    position: absolute;
+    left: 55%;
+    margin-right: 20px;
+}

@@ -1,0 +1,70 @@
+.home {
+    background-color: rgb(19, 176, 255);
+}
+
+.unutra {
+    align-items: center;
+    margin: auto;
+    padding-top: 75px;
+    width: 1300px;
+    background-color: azure;
+    height: 500px;
+}
+
+.gallery {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 200px;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.img1 {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.img2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.img5 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.img4 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.img3 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.img6 {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.img7 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
